@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
@@ -30,7 +30,31 @@ h1 {
 }
 
 .colortext {
-  color: #f78ecf;
+  color: #333333;
+}
+
+.colortext2 {
+  color: #033d16;
+}
+
+.colortext3 {
+  color: #c5e9b4;
+}
+
+.colortext4 {
+  color: #50b7fe;
+}
+
+.colortext5 {
+  color: #99def9;
+}
+
+.colortext6 {
+  color: hotpink;
+}
+
+.colortext7 {
+  color: #ec854b;
 }
 
 h2 {
@@ -42,8 +66,35 @@ h2 {
   margin-top: 20px;
 }
 
+h3 {
+  font-size: 18px;
+  font-family: cubano, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  margin-top: 20px;
+}
+
 .button3:hover {
-  color: #f78ecf;
+  color: #ec854b;
+  font-size: italic;
+}
+
+.button4:hover {
+  color: #033d16;
+  font-size: italic;
+}
+.button5:hover {
+  color: #50b7fe;
+  font-size: italic;
+}
+.button6:hover {
+  color: #c5e9b4;
+  font-size: italic;
+}
+
+.button7:hover {
+  color: hotpink;
   font-size: italic;
 }
 
@@ -52,6 +103,10 @@ h2 {
 }
 
 .margin2 {
+  margin-left: 20rem;
+}
+
+.margin3 {
   margin-left: 30rem;
 }
 
@@ -85,7 +140,9 @@ h2 {
 .bilder {
   display: flex;
   gap: 20px;
-  max-width: 1024px;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .bild {
@@ -94,7 +151,128 @@ h2 {
 }
 
 .bg-image {
-  background-color: #f78ecf;
-  height: 400px;
+  background-image: url(img/plantyblack.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
   width: 100%;
+}
+
+.bg-image1 {
+  background-image: url(img/Hknackar.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.bg-image2 {
+  background-image: url(img/ingograaaaa.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.bg-image3 {
+  background-image: url(img/loading.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.bg-image4 {
+  background-image: url(img/Amalia.PNG);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+
+.img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.img2:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.aa {
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  gap: 20px;
+  padding-left: 10rem;
+  margin-bottom: 100px;
+  align-items: end;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 24px;
+  color: #fff;
+}
+
+.amalia-krona {
+  height: 400px;
+  display: flex;
+}
+
+.info {
+  text-align: center;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .imgamalia {
+    bottom: 0%;
+    right: 0;
+
+    max-width: 130px;
+  }
+
+  .margin1 {
+    margin-left: 2rem;
+  }
+
+  .margin2 {
+    margin-left: 3rem;
+  }
+
+  .margin3 {
+    margin-left: 2rem;
+  }
+  .about {
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .amalia-krona {
+    flex-direction: column;
+  }
 }
